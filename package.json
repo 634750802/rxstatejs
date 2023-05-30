@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm run --filter '*' build",
+    "test": "pnpm run --filter '*' test",
+    "cov": "pnpm run --filter '*' cov"
+  },
+  "keywords": [],
+  "author": "634750802",
+  "license": "MIT",
+  "packageManager": "pnpm@8.6.0"
+}

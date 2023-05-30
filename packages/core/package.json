@@ -1,0 +1,30 @@
+{
+  "name": "rxstatejs",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build-esm && npm run build-cjs",
+    "build-esm": "tsc -p tsconfig.json",
+    "build-cjs": "tsc -p tsconfig.cjs.json",
+    "test": "jest",
+    "cov": "jest --coverage"
+  },
+  "keywords": [],
+  "module": "dist/esm/index.js",
+  "main": "dist/cjs/index.js",
+  "directories": {
+    "lib": "dist"
+  },
+  "author": "634750802",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
